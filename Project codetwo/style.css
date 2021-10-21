@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* first section style start */
+
+.main-frist-section{
+    margin-top: 50px;
+}
+
+
+.frist-section-content{
+}
+.frist-section-content h1{
+    margin-top: 40px;
+    font-weight: 700;
+}
+.frist-section-content p{
+    font-size: 17px;
+    margin-top: 25px;
+}
+.frist-section-content button{
+    margin-top: 15px;
+    padding: 5px 25px;
+    background-color:#E94B35 ;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.frist-section-content button:hover{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+
+
+
+
+.frist-section-img img{
+    width: 300px;
+    height: 300px;
+
+}
+
+
+@media screen and (max-width:600px){
+    .frist-section-img img{
+        display: none;
+    };
+}
+/* first section style end */
+
+
+
+
+
+
+/* header-section css style start */
+
+
+.main-header-menu{
+    background-color: #212121;
+   overflow: auto;
+}
+
+
+
+.header-menu{
+   
+}
+
+.select{
+    padding: 8px 2px;
+    font-size: 16px;
+    background-color: #212121;
+    color: white;
+    display: flex;
+    float: left;
+    width: 140px;
+    overflow: auto;
+    border: none;
+}
+.select:hover, select:focus{
+    background-color: white;
+    color: black;
+}
+
+
+.select option{
+color: black;
+
+}
+
+
+
+
+
+/* header-section css style end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
